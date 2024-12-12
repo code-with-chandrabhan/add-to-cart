@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Ecommerce</h1>
+        <div class="menu">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="product.html">
+                    <li>Product</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="contact.html">
+                    <li>contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="btn">
+            <a href="login.html"><button type="Login"><i class="fa-solid fa-right-to-bracket "></i> Login</button></a>
+            <a href="register.html"><button type="Register"><i class="fa-regular fa-address-card"></i>
+                    Register</button></a>
+            <a href="cart.html"><button class="cart" id="cart_amount" type="Cart"><i id ="ican"
+                        class="fa-solid fa-cart-shopping"></i></button></a>
+        </div>
+
+    </div>
+
+
+    <div class="main">
+        <img src="main.png.jpg" alt="necher" height="100%" width="100%">
+        <h3 class="text">New Season Arrivals</h3>
+        <p class="text1">This is a wider card with supporting text below as a natural lead-in to additional content.
+            This content is a little bit longer.</p>
+
+        <h2>Latest Products</h2>
+        <p class="border"></p>
+
+        <div class="all-btn">
+            <a href="product.html"><button type="button">All</button></a>
+            <a href="men.html"><button type="button">Men's Clothing</button></a>
+            <a href="women.html"><button type="button">Women's Clothing</button></a>
+            <a href="jewelery.html"><button type="button">Jewelery</button></a>
+            <a href="electronics.html"><button type="button">Electronic</button></a>
+        </div>
+    </div>
+
+    <div class="men">
+        <div class="men1">
+            <img  src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="" height="100%" width="100%">
+            <section>Fjallraven..</section>
+            <section class="text7">100% organic polyurthane(shell) 100 % polyurethane(liing)75% polyurethane 25%
+                cotton(sweet)</section>
+            <p></p>
+            <section class="text8">$109.95</section>
+            <p></p>
+            <button onclick ="Delete('${id}','${name}','${price}','${img}')">Delete </button>
+            <button onclick="add_to_cart()">Add to cart</button>
+        </div>
+
+        <div class="men1">
+            <img class="img6" src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg" alt=""
+                height="100%" width="100%">
+            <section>Mens Fit T-Shirts</section>
+            <section class="text7">100% organic polyurthane(shell) 100 % polyurethane(liing)75% polyurethane 25%
+                cotton(sweet)</section>
+            <p></p>
+            <section class="text8">$22.3</section>
+            <p></p>
+            <button onclick ="Delete('${id}','${name}','${price}','${img}')">Delete </button>
+            <button onclick="add_to_cart()">Add to cart</button>
+        </div>
+
+        <div class="men1">
+            <img class="img5" src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="" height="100%"
+                width="100%">
+            <section>Mens Cotton Jacket</section>
+            <section class="text7">100% organic polyurthane(shell) 100 % polyurethane(liing)75% polyurethane 25%
+                cotton(sweet)</section>
+            <p></p>
+            <section class="text8">$56.99</section>
+            <p></p>
+            <button onclick ="Delete('${id}','${name}','${price}','${img}')">Delete </button>
+            <button onclick="add_to_cart()">Add to cart</button>
+        </div>
+
+        <div class="men1">
+            <img class="img6" src="https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg" alt="" height="100%"
+                width="100%">
+            <section>Mens Casual Slim Fit</section>
+            <section class="text7">100% organic polyurthane(shell) 100 % polyurethane(liing)75% polyurethane 25%
+                cotton(sweet)</section>
+            <p></p>
+            <section class="text8">$15.99</section>
+            <p></p>
+            <button onclick ="Delete('${id}','${name}','${price}','${img}')">Delete </button>
+            <button onclick="add_to_cart()">Add to cart</button>
+        </div>
+
+    </div>
+
+    <section class="made" style="font-size: 20px; text-align: center; margin-top: 20px;">made with ❤️ by chandrabhan
+    </section>
+
+
+
+
+    <script src="data.js"></script>
+    <script src="data/script.js"></script>
+</body>
+
+</html>
